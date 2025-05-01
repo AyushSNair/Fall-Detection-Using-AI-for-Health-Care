@@ -10,8 +10,8 @@ CORS(app)
 
 
 # Email configuration
-EMAIL_ADDRESS = 'nairayush45@gmail.com'  
-EMAIL_PASSWORD = 'ayok xkxn sigg ysvw'   
+EMAIL_ADDRESS = ''  
+EMAIL_PASSWORD = ''   
 
 @app.route('/send-email', methods=['GET'])
 @app.route('/send-email', methods=['POST'])
